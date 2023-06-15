@@ -92,10 +92,7 @@ describe('Profile page', () => {
     });
 
   });
-  it.only('Percentage', () => { 
-    cy.get('span').should('have.text', 'Mehr erfahren').click()
-    
-  });
+  
 
 });
 
