@@ -16,10 +16,6 @@ steps will explain how I did this.
 I set screen size into the cypress.config.js and also increased the load time because Cypress was giving me error at 60000ms load time when using Electron. 
 then used google chrome to run the file and it started working fine.
 
-##3 
-Tests no 2, and 3 are working perfectly fine.(seems like sometimes randomly testcase 3 throw error that element doesnt exist. kindly run test 2 or 3 times again if that ever happend) but for test number 4 I could only complete
-its half part. because after finding all the 2 star reviews I was trying to compare if all the 
-reviews has only two yellow stars and tried two different logics.I cannot found the final results for that. And Also question 5 is running perfectly fine. but giving 0% sum. I am trying to 
 
 
 
@@ -40,12 +36,12 @@ Question1:
 13. Verify that the calculated sum is accurate and matches the expected value.
 14. Validate that the sum is equal to or below 100, as it should represent the total percentage allocation for all star ratings.
 
- By adding these additional checks, you can ensure that the page title exists, the grade is visible and accurate, the provided information is relevant, the filtering functionality works correctly, and the star percentage values are correctly calculated and within the expected range.
+By adding these additional checks, you can ensure that the page title exists, the grade is visible and accurate, the provided information is relevant, the filtering functionality works correctly, and the star percentage values are correctly calculated and within the expected range.
 
 
 
 Question 2: 
-To enhance the curren tests for the review star rating system, we can add the following checks:
+To enhance the current tests for the review star rating system, we can add the following checks:
 1: for first test case we can further check if the latest added reviews are visible and adding the relevent information and updating the percentage of stars
 2: we can check after adding more reviews is the yellow line is filling or static
 3: check if the review message is deleting and updating. 
@@ -62,9 +58,10 @@ To enhance the curren tests for the review star rating system, we can add the fo
 14: when user is trying to login from review report he can redirect to that page. 
 15: Verify that the page title is meaningful and accurately represents the content of the page.
 16: verify the GUI of the page that all the buttons are clickable and giving expected results
-17:verify that the if the page title is visible and correctly displayed at the top of the page.
+17: verify that the if the page title is visible and correctly displayed at the top of the page.
 18: Verify that Total amount of reviews are updating when adding or deleting any review.
 19: verify that star colour filling is changing with the review counting (with 4.5 star should be 4 filled and 1 half filled)
+20: Check if the website's GUI is working perfectly fine after localizing the German to English
 
 
 Question3 : Does the profile page have non-functional properties? How would you test
