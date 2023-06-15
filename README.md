@@ -1,4 +1,3 @@
-In this file I am going to add all the steps which I followed to do this E2E testing.
 ##1   
 To execute the tests, follow these steps to set the whole environment: 
 
