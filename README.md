@@ -42,26 +42,26 @@ By adding these additional checks, you can ensure that the page title exists, th
 
 Question 2: 
 To enhance the current tests for the review star rating system, we can add the following checks:
-1: for first test case we can further check if the latest added reviews are visible and adding the relevent information and updating the percentage of stars
-2: we can check after adding more reviews is the yellow line is filling or static
-3: check if the review message is deleting and updating. 
-4: Check if the review star is updateable 
-5: check if the counting of reviews is updating or not.
-6: check if user add new review is it displaying in the first row. (on the first)
-7: check if date of adding Review is dynamic 
-8: check if reviews are showing datewise. 
-9: Check if reviews pages have pagination or not. (same reviews showing in other pages)
-10: check if all the redirecting links are clickable or not 
-11: Verify if the other details on the profile page (e.g., company information, contact details) are present and correct.
-12: verify that the time setting format is changing correctly when page loaded from german to english or english to german. 
-13: verfiy that the user is able to verify the review report 
-14: when user is trying to login from review report he can redirect to that page. 
-15: Verify that the page title is meaningful and accurately represents the content of the page.
-16: verify the GUI of the page that all the buttons are clickable and giving expected results
-17: verify that the if the page title is visible and correctly displayed at the top of the page.
-18: Verify that Total amount of reviews are updating when adding or deleting any review.
-19: verify that star colour filling is changing with the review counting (with 4.5 star should be 4 filled and 1 half filled)
-20: Check if the website's GUI is working perfectly fine after localizing the German to English
+1. for first test case we can further check if the latest added reviews are visible and adding the relevent information and updating the percentage of stars
+2. we can check after adding more reviews is the yellow line is filling or static
+3. check if the review message is deleting and updating.
+4. Check if the review star is updateable
+5. check if the counting of reviews is updating or not.
+6. check if user add new review is it displaying in the first row. (on the first)
+7. check if date of adding Review is dynamic
+8. check if reviews are showing datewise.
+9. Check if reviews pages have pagination or not. (same reviews showing in other pages)
+10. check if all the redirecting links are clickable or not
+11. Verify if the other details on the profile page (e.g., company information, contact details) are present and correct.
+12. verify that the time setting format is changing correctly when page loaded from german to english or english to german.
+13. verfiy that the user is able to verify the review report
+14. when user is trying to login from review report he can redirect to that page.
+15. Verify that the page title is meaningful and accurately represents the content of the page.
+16. verify the GUI of the page that all the buttons are clickable and giving expected results
+17.  verify that the if the page title is visible and correctly displayed at the top of the page.
+18.  Verify that Total amount of reviews are updating when adding or deleting any review.
+19.  Verify that star colour filling is changing with the review counting (with 4.5 star should be 4 filled and 1 half filled)
+20. Check if the website's GUI is working perfectly fine after localizing the German to English
 
 
 Question3 : Does the profile page have non-functional properties? How would you test
