@@ -3,14 +3,15 @@ To execute the tests, follow these steps to set the whole environment:
 
 PS: In my system Node.js and VS code and Cypress was already installed. but these
 steps will explain how I did this. 
-1: Install Cypress: npm install cypress
-2: Created a new folder in your project's directory with the name 'TRUSTEDSHOPS'
-3: Open the Cypress Test Runner: npx cypress open
-4: downloaded all the required packages by : npm init -y. 
-5: Configure the Cypress for this project and Add the E2E example folder.
-6: After that add this automation file into E2E folder. 
-7: you can set the width of the page into the cypress.config.js file and also in the script. 
-8: In the Cypress Test Runner, click on E2E.spec.js to run the tests.
+1. Install Cypress: npm install cypress
+2. Created a new folder in your project's directory with the name 'TRUSTEDSHOPS'
+3. Open the Cypress Test Runner: npx cypress open
+4. downloaded all the required packages by : npm init -y.
+5. Configure the Cypress for this project and Add the E2E example folder.
+6. After that add this automation file into E2E folder.
+7. you can set the width of the page into the cypress.config.js file and also in the script.
+8. In the Cypress Test Runner, click on E2E.spec.js to run the tests.
+9. main file E2E.specs.js is in Cypress/E2E folder
 
 ##2 
 I set screen size into the cypress.config.js and also increased the load time because Cypress was giving me error at 60000ms load time when using Electron. 
